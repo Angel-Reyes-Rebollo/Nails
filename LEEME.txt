@@ -1,0 +1,6 @@
+Coloca aquí tus fotos con estos nombres (.jpg). Mientras no existan, la página muestra un fondo suave de reemplazo.
+hero.jpg, about.jpg, featured.jpg        -> portada, manicurista, diseño destacado
+style-hadas.jpg, style-elegantes.jpg, style-delicados.jpg,
+style-nailart.jpg, style-tematicos.jpg, style-atrevidos.jpg -> tarjetas de estilo
+g01.jpg ... g24.jpg                      -> galería (el estilo de cada una se cambia en js/script.js)
+Fotos verticales (3:4) o cuadradas se ven mejor.

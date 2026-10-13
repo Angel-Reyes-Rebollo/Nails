@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Winxy Nails | La belleza de las hadas en tus manos</title>
+<meta name="description" content="La belleza de las hadas en tus manos. Manicure, pedicure y nail art en Nezahualcóyotl.">
+<!-- Fuentes opcionales de Google; si no cargan, se usa Georgia / sistema -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="top">
+  <a class="logo" href="#top" data-t="brand"></a>
+  <button class="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span></button>
+  <nav>
+    <a href="#disenos">Diseños</a><a href="#servicios">Servicios</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1 data-t="brand"></h1>
+    <p class="lead" data-t="tagline"></p>
+    <p data-t="intro"></p>
+    <div class="btns"><a class="btn dark" href="#disenos">Ver diseños</a><a class="btn line" data-wa target="_blank" rel="noopener">Agenda tu cita</a></div>
+  </div>
+  <div class="arch" id="heroImg"></div>
+</section>
+
+<section id="disenos" class="wrap">
+  <h2>Mis diseños</h2>
+  <div class="filters" id="filters"></div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="wrap">
+  <h2>¿Cuál es tu estilo?</h2>
+  <div class="styles" id="styles"></div>
+</section>
+
+<section id="servicios" class="wrap tint">
+  <h2>Servicios</h2>
+  <div class="services" id="services"></div>
+</section>
+
+<section class="wrap">
+  <div class="featured">
+    <div class="ph-box" id="featImg"></div>
+    <div><h2>✨ Diseño destacado</h2><h3 data-t="featName"></h3><p data-t="featDesc"></p><p class="price" data-t="featPrice"></p><a class="btn dark" data-wa target="_blank" rel="noopener">Lo quiero</a></div>
+  </div>
+</section>
+
+<section id="nosotros" class="wrap about">
+  <div class="ph-box tall" id="aboutImg"></div>
+  <div><h2 data-t="aboutTitle"></h2><p data-t="aboutText"></p><p data-t="aboutPhil"></p></div>
+</section>
+
+<section class="wrap tint">
+  <h2>Lo que dicen mis clientas</h2>
+  <div class="quotes" id="quotes"></div>
+</section>
+
+<section id="contacto" class="wrap contact">
+  <h2>📍 Estamos en <span data-t="place"></span></h2>
+  <!-- PENDIENTE: agrega aquí dirección, colonia, municipio, referencias o un mapa -->
+  <p class="muted">Dirección y referencias próximamente.</p>
+  <p class="big">WhatsApp <a data-wa target="_blank" rel="noopener" data-t="phone"></a></p>
+  <div class="social" id="social"></div>
+</section>
+
+<footer>
+  <strong data-t="brand"></strong>
+  <p>Manicure · Pedicure · Nail Art</p>
+  <p><span data-t="place"></span> · <span data-t="phone"></span></p>
+  <div class="social" id="social2"></div>
+  <small>© <span id="yr"></span> <span data-t="brand"></span>. Todos los derechos reservados.</small>
+</footer>
+
+<div class="lb" id="lb" hidden><button class="x" aria-label="Cerrar">×</button><button class="nav p" aria-label="Anterior">‹</button><div id="lbBox"></div><button class="nav n" aria-label="Siguiente">›</button></div>
+<script src="js/script.js"></script>
+</body>
+</html>
